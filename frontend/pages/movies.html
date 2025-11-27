@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NetMovie - Avaliar</title>
+    <link rel="stylesheet" href="../styles/styles.css">
+</head>
+<body>
+    <nav class="navbar">
+        <a href="#" class="logo">NETMOVIE</a>
+        <div class="nav-links">
+            <a href="../pages/movies.html" class="active">Avaliar Filmes</a>
+            <a href="../pages/recommendations.html">Minhas Recomendações</a>
+            <a href="#" onclick="logout()">Sair</a>
+        </div>
+    </nav>
+
+    <div class="container">
+        <h2 class="section-title">Avalie filmes para melhorar suas recomendações</h2>
+        <div id="moviesGrid" class="movie-grid">
+            <p style="color: #777;">Carregando catálogo...</p>
+        </div>
+    </div>
+
+    <div id="customModal" class="modal-overlay">
+        <div class="modal-box">
+            <div class="modal-icon">★</div> <h3 class="modal-title">Avaliação Recebida!</h3>
+            <p class="modal-message" id="modalMessageText">Sua nota foi salva com sucesso.</p>
+            <button class="btn-modal" onclick="closeModal()">OK</button>
+        </div>
+    </div>
+
+    <script src="../script/script.js"></script>
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+            checkAuth();
+            loadAllMovies();
+        });
+    </script>
+</body>

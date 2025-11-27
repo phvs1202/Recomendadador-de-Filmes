@@ -1,0 +1,285 @@
+/* style.css */
+:root {
+    --netflix-red: #e50914;
+    --netflix-black: #141414;
+    --netflix-dark-gray: #181818;
+    --netflix-light-gray: #b3b3b3;
+    --white: #ffffff;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: var(--netflix-black);
+    color: var(--white);
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    -webkit-font-smoothing: antialiased;
+}
+
+/* --- Login Screen --- */
+.login-container {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('https://assets.nflxext.com/ffe/siteui/vlv3/f841d4c7-10e1-40af-bcae-07a3f8dc141a/f6d7434e-d6de-4185-a6d4-c77a2d08737b/US-en-20220502-popsignuptwoweeks-perspective_alpha_website_medium.jpg');
+    background-size: cover;
+}
+
+.login-box {
+    background-color: rgba(0, 0, 0, 0.75);
+    padding: 60px 68px 40px;
+    border-radius: 4px;
+    width: 100%;
+    max-width: 450px;
+}
+
+.login-box h1 {
+    margin-bottom: 28px;
+    font-size: 32px;
+}
+
+.input-group {
+    margin-bottom: 16px;
+}
+
+.input-control {
+    width: 100%;
+    height: 50px;
+    background: #333;
+    border: none;
+    border-radius: 4px;
+    color: #fff;
+    padding: 16px 20px;
+    font-size: 16px;
+}
+
+.btn-primary {
+    width: 100%;
+    background-color: var(--netflix-red);
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    height: 48px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    margin-top: 24px;
+    transition: background 0.2s;
+}
+
+.btn-primary:hover {
+    background-color: #f40612;
+}
+
+/* --- Navbar --- */
+.navbar {
+    background-color: var(--netflix-black);
+    padding: 20px 4%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.5);
+}
+
+.logo {
+    color: var(--netflix-red);
+    font-size: 28px;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.nav-links a {
+    color: var(--netflix-light-gray);
+    text-decoration: none;
+    margin-left: 20px;
+    font-size: 14px;
+    transition: color 0.3s;
+}
+
+.nav-links a:hover, .nav-links a.active {
+    color: var(--white);
+    font-weight: bold;
+}
+
+/* --- Content & Grid --- */
+.container {
+    padding: 20px 4%;
+}
+
+.section-title {
+    font-size: 20px;
+    margin-bottom: 15px;
+    margin-top: 30px;
+    font-weight: 500;
+}
+
+.movie-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 20px;
+}
+
+.movie-card {
+    background-color: var(--netflix-dark-gray);
+    border-radius: 4px;
+    overflow: hidden; /* Garante que a imagem respeite as bordas arredondadas */
+    transition: transform 0.3s;
+    position: relative;
+    cursor: pointer;
+}
+
+/* NOVA CLASSE para a imagem */
+.movie-poster-img {
+    width: 100%;
+    height: 300px; /* Altura fixa para manter o grid alinhado */
+    object-fit: cover; /* Corta a imagem para preencher sem esticar */
+    display: block;
+}
+
+.movie-card:hover {
+    transform: scale(1.05);
+    z-index: 10;
+}
+
+.poster-placeholder {
+    height: 300px;
+    background: linear-gradient(45deg, #222, #444);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #aaa;
+    font-size: 40px;
+    text-align: center;
+    padding: 10px;
+}
+
+.movie-info {
+    padding: 10px;
+}
+
+.movie-title {
+    font-size: 14px;
+    font-weight: bold;
+    margin-bottom: 5px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.movie-meta {
+    font-size: 11px;
+    color: #a3a3a3;
+    display: flex;
+    justify-content: space-between;
+}
+
+/* --- Star Rating System --- */
+.rating-stars {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.star {
+    font-size: 20px;
+    color: #555;
+    cursor: pointer;
+    transition: color 0.2s;
+}
+
+.star:hover, .star.active {
+    color: #e50914; /* Red stars for Netflix feel, or gold #ffd700 */
+}
+
+.recommendation-score {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background: var(--netflix-red);
+    padding: 4px 8px;
+    border-radius: 4px;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+/* --- Custom Modal (Netflix Style) --- */
+.modal-overlay {
+    display: none; /* Oculto por padrão */
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.85); /* Fundo bem escuro */
+    z-index: 2000;
+    justify-content: center;
+    align-items: center;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+}
+
+.modal-overlay.show {
+    display: flex;
+    opacity: 1;
+}
+
+.modal-box {
+    background-color: #181818;
+    width: 90%;
+    max-width: 400px;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.5);
+    text-align: center;
+    transform: scale(0.8);
+    transition: transform 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+    border: 1px solid #333;
+}
+
+.modal-overlay.show .modal-box {
+    transform: scale(1);
+}
+
+.modal-icon {
+    font-size: 50px;
+    color: var(--netflix-red);
+    margin-bottom: 20px;
+}
+
+.modal-title {
+    font-size: 22px;
+    margin-bottom: 10px;
+    color: #fff;
+    font-weight: bold;
+}
+
+.modal-message {
+    font-size: 16px;
+    color: #b3b3b3;
+    margin-bottom: 25px;
+}
+
+.btn-modal {
+    background-color: var(--netflix-red);
+    color: white;
+    padding: 12px 24px;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    width: 100%;
+    transition: background 0.2s;
+}
+
+.btn-modal:hover {
+    background-color: #f40612;
+}

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "8wz0hQmFT4c=",
+  "dgSpecHash": "P5I5eX55PIw=",
   "success": true,
-  "projectFilePath": "C:\\Valerio\\projetos\\IA\\Nova pasta\\RecomendarFilmeAPI\\RecomendarFilmeAPI\\RecomendarFilmeAPI.csproj",
+  "projectFilePath": "C:\\Valerio\\projetos\\IA\\Recomendadador-de-Filmes\\backend\\RecomendarFilmeAPI\\RecomendarFilmeAPI\\RecomendarFilmeAPI.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Pedro Valério\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",
     "C:\\Users\\Pedro Valério\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\9.0.4\\microsoft.bcl.asyncinterfaces.9.0.4.nupkg.sha512",

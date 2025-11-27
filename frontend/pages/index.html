@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NetMovie - Login</title>
+    <link rel="stylesheet" href="../styles/styles.css">
+</head>
+
+<body>
+    <div class="login-container">
+        <div class="login-box">
+            <h1>Entrar</h1>
+            <form id="loginForm">
+                <div class="input-group">
+                    <input type="text" id="usernameInput" class="input-control" placeholder="Seu Nome de Usuário"
+                        required>
+                </div>
+                <div class="input-group">
+                    <input type="password" id="passwordInput" class="input-control" placeholder="Senha" required>
+                </div>
+                <button type="submit" class="btn-primary">Entrar</button>
+                <div id="loginError"
+                    style="color: var(--netflix-red); margin-top: 15px; font-size: 14px; text-align: center; display: none;">
+                    Nome de usuário ou senha inválidos.
+                </div>
+                <div style="margin-top: 15px; color: #737373; font-size: 13px;">
+                    Novo por aqui? <span style="color: #fff; cursor: pointer;">Assine agora.</span>
+                </div>
+            </form>
+        </div>
+    </div>
+    <script src="../script/script.js"></script>
+    <script>
+        // Lógica Específica de Login
+        document.getElementById('loginForm').addEventListener('submit', handleLogin);
+
+        async function handleLogin(e) {
+            e.preventDefault();
+            const username = document.getElementById('usernameInput').value;
+            const password = document.getElementById('passwordInput').value;
+            const errorElement = document.getElementById('loginError');
+            errorElement.style.display = 'none';
+
+            try {
+                // A função handleLogin está em script.js (veja a próxima seção)
+                const success = await loginUser(username, password);
+
+                if (success) {
+                    window.location.href = 'movies.html';
+                } else {
+                    errorElement.style.display = 'block';
+                }
+
+            } catch (error) {
+                console.error("Erro na comunicação com o servidor:", error);
+                errorElement.innerText = "Erro ao conectar. Tente novamente.";
+                errorElement.style.display = 'block';
+            }
+        }
+    </script>
+</body>
+
+</html>

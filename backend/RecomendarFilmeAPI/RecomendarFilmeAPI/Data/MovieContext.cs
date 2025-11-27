@@ -11,11 +11,11 @@ namespace RecomendarFilmeAPI.Data
 
         public DbSet<Movie> Movies { get; set; }
         public DbSet<Rating> Ratings { get; set; }
+        public DbSet<users> Users { get; set; }
 
-        // ADICIONE ESTE BLOCO PARA CONFIGURAR A CHAVE COMPOSTA
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
-            // Diz ao EF que a chave da tabela Ratings é composta por UserId e MovieId juntos
+            // ESTE TRECHO É OBRIGATÓRIO PARA A TABELA RATINGS FUNCIONAR
             modelBuilder.Entity<Rating>()
                 .HasKey(r => new { r.UserId, r.MovieId });
 

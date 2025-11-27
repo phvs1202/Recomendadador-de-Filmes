@@ -3,23 +3,25 @@ using System.ComponentModel.DataAnnotations.Schema;
 
 namespace RecomendarFilmeAPI.Models
 {
-    [Table("movies")] // Garante que o EF busque a tabela minúscula 'movies'
+    [Table("movies")]
     public class Movie
     {
-        [Key] // Define que este é o ID principal
-        [Column("Id")]
+        [Key][Column("Id")] 
         public int Id { get; set; }
 
-        [Column("Title")]
+        [Column("Title")] 
         public string Title { get; set; }
 
-        [Column("Year")]
-        public int? Year { get; set; } // Nullable (int?) pois o banco pode ter nulos
+        [Column("Year")] 
+        public int? Year { get; set; }
 
-        [Column("Genre")]
-        public string Genre { get; set; }
+        [Column("Genre")] 
+        public string? Genre { get; set; }
 
-        [Column("Elenco")]
-        public string Elenco { get; set; }
+        [Column("Elenco")] 
+        public string? Elenco { get; set; }
+
+        [Column("Photo")]
+        public string? Photo { get; set; }
     }
 }

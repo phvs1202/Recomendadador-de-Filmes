@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NetMovie - Para Você</title>
+    <link rel="stylesheet" href="../styles/styles.css">
+</head>
+<body>
+    <nav class="navbar">
+        <a href="#" class="logo">NETMOVIE</a>
+        <div class="nav-links">
+            <a href="movies.html">Avaliar Filmes</a>
+            <a href="recommendations.html" class="active">Minhas Recomendações</a>
+            <a href="#" onclick="logout()">Sair</a>
+        </div>
+    </nav>
+
+    <div class="container">
+        <h2 class="section-title">Top Escolhas para Você</h2>
+        <div id="recommendationsGrid" class="movie-grid">
+            <p style="color: #777;">Consultando a IA...</p>
+        </div>
+    </div>
+
+    <script src="../script/script.js"></script>
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+            checkAuth();
+            loadRecommendations(); 
+        });
+    </script>
+</body>
+</html>

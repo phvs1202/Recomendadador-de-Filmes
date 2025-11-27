@@ -1,0 +1,74 @@
+-- MySQL Workbench Forward Engineering
+
+SET @OLD_UNIQUE_CHECKS=@@UNIQUE_CHECKS, UNIQUE_CHECKS=0;
+SET @OLD_FOREIGN_KEY_CHECKS=@@FOREIGN_KEY_CHECKS, FOREIGN_KEY_CHECKS=0;
+SET @OLD_SQL_MODE=@@SQL_MODE, SQL_MODE='ONLY_FULL_GROUP_BY,STRICT_TRANS_TABLES,NO_ZERO_IN_DATE,NO_ZERO_DATE,ERROR_FOR_DIVISION_BY_ZERO,NO_ENGINE_SUBSTITUTION';
+
+-- -----------------------------------------------------
+-- Schema mydb
+-- -----------------------------------------------------
+-- -----------------------------------------------------
+-- Schema bd_filme
+-- -----------------------------------------------------
+
+-- -----------------------------------------------------
+-- Schema bd_filme
+-- -----------------------------------------------------
+CREATE SCHEMA IF NOT EXISTS `bd_filme` DEFAULT CHARACTER SET utf8mb4 COLLATE utf8mb4_0900_ai_ci ;
+USE `bd_filme` ;
+
+-- -----------------------------------------------------
+-- Table `bd_filme`.`movies`
+-- -----------------------------------------------------
+CREATE TABLE IF NOT EXISTS `bd_filme`.`movies` (
+  `Id` INT NOT NULL AUTO_INCREMENT,
+  `Title` VARCHAR(255) NOT NULL,
+  `Year` INT NOT NULL,
+  `Genre` VARCHAR(100) NOT NULL,
+  `Elenco` VARCHAR(200) NOT NULL,
+  `Photo` VARCHAR(200) NULL DEFAULT NULL,
+  PRIMARY KEY (`Id`))
+ENGINE = InnoDB
+AUTO_INCREMENT = 101
+DEFAULT CHARACTER SET = utf8mb4
+COLLATE = utf8mb4_0900_ai_ci;
+
+
+-- -----------------------------------------------------
+-- Table `bd_filme`.`users`
+-- -----------------------------------------------------
+CREATE TABLE IF NOT EXISTS `bd_filme`.`users` (
+  `Id` INT NOT NULL AUTO_INCREMENT,
+  `Name` VARCHAR(100) NOT NULL,
+  `Password` VARCHAR(100) NOT NULL,
+  PRIMARY KEY (`Id`))
+ENGINE = InnoDB
+AUTO_INCREMENT = 16
+DEFAULT CHARACTER SET = utf8mb4
+COLLATE = utf8mb4_0900_ai_ci;
+
+
+-- -----------------------------------------------------
+-- Table `bd_filme`.`ratings`
+-- -----------------------------------------------------
+CREATE TABLE IF NOT EXISTS `bd_filme`.`ratings` (
+  `UserId` INT NOT NULL,
+  `MovieId` INT NOT NULL,
+  `Rating` FLOAT NOT NULL,
+  PRIMARY KEY (`UserId`, `MovieId`),
+  INDEX `IX_Ratings_UserId` (`UserId` ASC) VISIBLE,
+  INDEX `IX_Ratings_MovieId` (`MovieId` ASC) VISIBLE,
+  CONSTRAINT `ratings_ibfk_1`
+    FOREIGN KEY (`UserId`)
+    REFERENCES `bd_filme`.`users` (`Id`),
+  CONSTRAINT `ratings_ibfk_2`
+    FOREIGN KEY (`MovieId`)
+    REFERENCES `bd_filme`.`movies` (`Id`))
+ENGINE = InnoDB
+DEFAULT CHARACTER SET = utf8mb4
+COLLATE = utf8mb4_0900_ai_ci;
+
+
+SET SQL_MODE=@OLD_SQL_MODE;
+SET FOREIGN_KEY_CHECKS=@OLD_FOREIGN_KEY_CHECKS;
+SET UNIQUE_CHECKS=@OLD_UNIQUE_CHECKS;
