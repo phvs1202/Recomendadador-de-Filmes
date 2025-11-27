@@ -1,0 +1,241 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Valerio\\projetos\\IA\\Nova pasta\\RecomendarFilmeAPI\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{DD1473D1-4B14-4421-A458-63747BF68A6D}|RecomendarFilmeAPI\\RecomendarFilmeAPI.csproj|c:\\valerio\\projetos\\ia\\nova pasta\\recomendarfilmeapi\\recomendarfilmeapi\\services\\modeltrainingservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DD1473D1-4B14-4421-A458-63747BF68A6D}|RecomendarFilmeAPI\\RecomendarFilmeAPI.csproj|solutionrelative:recomendarfilmeapi\\services\\modeltrainingservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DD1473D1-4B14-4421-A458-63747BF68A6D}|RecomendarFilmeAPI\\RecomendarFilmeAPI.csproj|c:\\valerio\\projetos\\ia\\nova pasta\\recomendarfilmeapi\\recomendarfilmeapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DD1473D1-4B14-4421-A458-63747BF68A6D}|RecomendarFilmeAPI\\RecomendarFilmeAPI.csproj|solutionrelative:recomendarfilmeapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DD1473D1-4B14-4421-A458-63747BF68A6D}|RecomendarFilmeAPI\\RecomendarFilmeAPI.csproj|c:\\valerio\\projetos\\ia\\nova pasta\\recomendarfilmeapi\\recomendarfilmeapi\\models\\rating.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DD1473D1-4B14-4421-A458-63747BF68A6D}|RecomendarFilmeAPI\\RecomendarFilmeAPI.csproj|solutionrelative:recomendarfilmeapi\\models\\rating.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DD1473D1-4B14-4421-A458-63747BF68A6D}|RecomendarFilmeAPI\\RecomendarFilmeAPI.csproj|c:\\valerio\\projetos\\ia\\nova pasta\\recomendarfilmeapi\\recomendarfilmeapi\\controllers\\recommendationscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DD1473D1-4B14-4421-A458-63747BF68A6D}|RecomendarFilmeAPI\\RecomendarFilmeAPI.csproj|solutionrelative:recomendarfilmeapi\\controllers\\recommendationscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DD1473D1-4B14-4421-A458-63747BF68A6D}|RecomendarFilmeAPI\\RecomendarFilmeAPI.csproj|c:\\valerio\\projetos\\ia\\nova pasta\\recomendarfilmeapi\\recomendarfilmeapi\\models\\hybridmovierating.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DD1473D1-4B14-4421-A458-63747BF68A6D}|RecomendarFilmeAPI\\RecomendarFilmeAPI.csproj|solutionrelative:recomendarfilmeapi\\models\\hybridmovierating.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DD1473D1-4B14-4421-A458-63747BF68A6D}|RecomendarFilmeAPI\\RecomendarFilmeAPI.csproj|c:\\valerio\\projetos\\ia\\nova pasta\\recomendarfilmeapi\\recomendarfilmeapi\\models\\movie.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DD1473D1-4B14-4421-A458-63747BF68A6D}|RecomendarFilmeAPI\\RecomendarFilmeAPI.csproj|solutionrelative:recomendarfilmeapi\\models\\movie.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DD1473D1-4B14-4421-A458-63747BF68A6D}|RecomendarFilmeAPI\\RecomendarFilmeAPI.csproj|c:\\valerio\\projetos\\ia\\nova pasta\\recomendarfilmeapi\\recomendarfilmeapi\\models\\movieratingprediction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DD1473D1-4B14-4421-A458-63747BF68A6D}|RecomendarFilmeAPI\\RecomendarFilmeAPI.csproj|solutionrelative:recomendarfilmeapi\\models\\movieratingprediction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DD1473D1-4B14-4421-A458-63747BF68A6D}|RecomendarFilmeAPI\\RecomendarFilmeAPI.csproj|c:\\valerio\\projetos\\ia\\nova pasta\\recomendarfilmeapi\\recomendarfilmeapi\\data\\moviecontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DD1473D1-4B14-4421-A458-63747BF68A6D}|RecomendarFilmeAPI\\RecomendarFilmeAPI.csproj|solutionrelative:recomendarfilmeapi\\data\\moviecontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DD1473D1-4B14-4421-A458-63747BF68A6D}|RecomendarFilmeAPI\\RecomendarFilmeAPI.csproj|c:\\valerio\\projetos\\ia\\nova pasta\\recomendarfilmeapi\\recomendarfilmeapi\\services\\imodeltrainingservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DD1473D1-4B14-4421-A458-63747BF68A6D}|RecomendarFilmeAPI\\RecomendarFilmeAPI.csproj|solutionrelative:recomendarfilmeapi\\services\\imodeltrainingservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DD1473D1-4B14-4421-A458-63747BF68A6D}|RecomendarFilmeAPI\\RecomendarFilmeAPI.csproj|c:\\valerio\\projetos\\ia\\nova pasta\\recomendarfilmeapi\\recomendarfilmeapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{DD1473D1-4B14-4421-A458-63747BF68A6D}|RecomendarFilmeAPI\\RecomendarFilmeAPI.csproj|solutionrelative:recomendarfilmeapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DD1473D1-4B14-4421-A458-63747BF68A6D}|RecomendarFilmeAPI\\RecomendarFilmeAPI.csproj|c:\\valerio\\projetos\\ia\\nova pasta\\recomendarfilmeapi\\recomendarfilmeapi\\recomendarfilmeapi.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{DD1473D1-4B14-4421-A458-63747BF68A6D}|RecomendarFilmeAPI\\RecomendarFilmeAPI.csproj|solutionrelative:recomendarfilmeapi\\recomendarfilmeapi.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 10,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "RecomendarFilmeAPI",
+              "DocumentMoniker": "C:\\Valerio\\projetos\\IA\\Nova pasta\\RecomendarFilmeAPI\\RecomendarFilmeAPI\\RecomendarFilmeAPI.csproj",
+              "RelativeDocumentMoniker": "RecomendarFilmeAPI\\RecomendarFilmeAPI.csproj",
+              "ToolTip": "C:\\Valerio\\projetos\\IA\\Nova pasta\\RecomendarFilmeAPI\\RecomendarFilmeAPI\\RecomendarFilmeAPI.csproj",
+              "RelativeToolTip": "RecomendarFilmeAPI\\RecomendarFilmeAPI.csproj",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAAAAwAAAAcAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-11-27T13:00:54.953Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Valerio\\projetos\\IA\\Nova pasta\\RecomendarFilmeAPI\\RecomendarFilmeAPI\\appsettings.json",
+              "RelativeDocumentMoniker": "RecomendarFilmeAPI\\appsettings.json",
+              "ToolTip": "C:\\Valerio\\projetos\\IA\\Nova pasta\\RecomendarFilmeAPI\\RecomendarFilmeAPI\\appsettings.json",
+              "RelativeToolTip": "RecomendarFilmeAPI\\appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-11-27T12:03:29.724Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Movie.cs",
+              "DocumentMoniker": "C:\\Valerio\\projetos\\IA\\Nova pasta\\RecomendarFilmeAPI\\RecomendarFilmeAPI\\Models\\Movie.cs",
+              "RelativeDocumentMoniker": "RecomendarFilmeAPI\\Models\\Movie.cs",
+              "ToolTip": "C:\\Valerio\\projetos\\IA\\Nova pasta\\RecomendarFilmeAPI\\RecomendarFilmeAPI\\Models\\Movie.cs",
+              "RelativeToolTip": "RecomendarFilmeAPI\\Models\\Movie.cs",
+              "ViewState": "AQIAAAUAAAAAAAAAAAAWwBYAAAAqAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-27T12:02:25.407Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Rating.cs",
+              "DocumentMoniker": "C:\\Valerio\\projetos\\IA\\Nova pasta\\RecomendarFilmeAPI\\RecomendarFilmeAPI\\Models\\Rating.cs",
+              "RelativeDocumentMoniker": "RecomendarFilmeAPI\\Models\\Rating.cs",
+              "ToolTip": "C:\\Valerio\\projetos\\IA\\Nova pasta\\RecomendarFilmeAPI\\RecomendarFilmeAPI\\Models\\Rating.cs",
+              "RelativeToolTip": "RecomendarFilmeAPI\\Models\\Rating.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAbAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-27T12:01:59.277Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "IModelTrainingService.cs",
+              "DocumentMoniker": "C:\\Valerio\\projetos\\IA\\Nova pasta\\RecomendarFilmeAPI\\RecomendarFilmeAPI\\Services\\IModelTrainingService.cs",
+              "RelativeDocumentMoniker": "RecomendarFilmeAPI\\Services\\IModelTrainingService.cs",
+              "ToolTip": "C:\\Valerio\\projetos\\IA\\Nova pasta\\RecomendarFilmeAPI\\RecomendarFilmeAPI\\Services\\IModelTrainingService.cs",
+              "RelativeToolTip": "RecomendarFilmeAPI\\Services\\IModelTrainingService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAcAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-27T11:57:09.86Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "MovieContext.cs",
+              "DocumentMoniker": "C:\\Valerio\\projetos\\IA\\Nova pasta\\RecomendarFilmeAPI\\RecomendarFilmeAPI\\Data\\MovieContext.cs",
+              "RelativeDocumentMoniker": "RecomendarFilmeAPI\\Data\\MovieContext.cs",
+              "ToolTip": "C:\\Valerio\\projetos\\IA\\Nova pasta\\RecomendarFilmeAPI\\RecomendarFilmeAPI\\Data\\MovieContext.cs",
+              "RelativeToolTip": "RecomendarFilmeAPI\\Data\\MovieContext.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAwAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-27T11:56:41.516Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "MovieRatingPrediction.cs",
+              "DocumentMoniker": "C:\\Valerio\\projetos\\IA\\Nova pasta\\RecomendarFilmeAPI\\RecomendarFilmeAPI\\Models\\MovieRatingPrediction.cs",
+              "RelativeDocumentMoniker": "RecomendarFilmeAPI\\Models\\MovieRatingPrediction.cs",
+              "ToolTip": "C:\\Valerio\\projetos\\IA\\Nova pasta\\RecomendarFilmeAPI\\RecomendarFilmeAPI\\Models\\MovieRatingPrediction.cs",
+              "RelativeToolTip": "RecomendarFilmeAPI\\Models\\MovieRatingPrediction.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-27T11:56:21.648Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "HybridMovieRating.cs",
+              "DocumentMoniker": "C:\\Valerio\\projetos\\IA\\Nova pasta\\RecomendarFilmeAPI\\RecomendarFilmeAPI\\Models\\HybridMovieRating.cs",
+              "RelativeDocumentMoniker": "RecomendarFilmeAPI\\Models\\HybridMovieRating.cs",
+              "ToolTip": "C:\\Valerio\\projetos\\IA\\Nova pasta\\RecomendarFilmeAPI\\RecomendarFilmeAPI\\Models\\HybridMovieRating.cs",
+              "RelativeToolTip": "RecomendarFilmeAPI\\Models\\HybridMovieRating.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAoAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-27T11:55:44.728Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "RecommendationsController.cs",
+              "DocumentMoniker": "C:\\Valerio\\projetos\\IA\\Nova pasta\\RecomendarFilmeAPI\\RecomendarFilmeAPI\\Controllers\\RecommendationsController.cs",
+              "RelativeDocumentMoniker": "RecomendarFilmeAPI\\Controllers\\RecommendationsController.cs",
+              "ToolTip": "C:\\Valerio\\projetos\\IA\\Nova pasta\\RecomendarFilmeAPI\\RecomendarFilmeAPI\\Controllers\\RecommendationsController.cs",
+              "RelativeToolTip": "RecomendarFilmeAPI\\Controllers\\RecommendationsController.cs",
+              "ViewState": "AQIAAFcAAAAAAAAAAAAuwGYAAAATAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-27T11:51:53.234Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ModelTrainingService.cs",
+              "DocumentMoniker": "C:\\Valerio\\projetos\\IA\\Nova pasta\\RecomendarFilmeAPI\\RecomendarFilmeAPI\\Services\\ModelTrainingService.cs",
+              "RelativeDocumentMoniker": "RecomendarFilmeAPI\\Services\\ModelTrainingService.cs",
+              "ToolTip": "C:\\Valerio\\projetos\\IA\\Nova pasta\\RecomendarFilmeAPI\\RecomendarFilmeAPI\\Services\\ModelTrainingService.cs",
+              "RelativeToolTip": "RecomendarFilmeAPI\\Services\\ModelTrainingService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-27T11:48:18.969Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Valerio\\projetos\\IA\\Nova pasta\\RecomendarFilmeAPI\\RecomendarFilmeAPI\\Program.cs",
+              "RelativeDocumentMoniker": "RecomendarFilmeAPI\\Program.cs",
+              "ToolTip": "C:\\Valerio\\projetos\\IA\\Nova pasta\\RecomendarFilmeAPI\\RecomendarFilmeAPI\\Program.cs",
+              "RelativeToolTip": "RecomendarFilmeAPI\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-27T11:25:19.488Z",
+              "EditorCaption": ""
+            }
+          ]
+        },
+        {
+          "DockedWidth": 1392,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
+            }
+          ]
+        },
+        {
+          "DockedWidth": 1392,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            }
+          ]
+        },
+        {
+          "DockedWidth": 1392,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cdbdee54-b399-484b-b763-db2c3393d646}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
